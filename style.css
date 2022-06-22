@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #DFE2FF;
+	height: 300vh;
+}
+.continer{
+
+	height: 130vh;
+	width: 100%;
+}
+.addres{
+		
+		height: 120vh;
+		width: 40%;
+		margin: 20px;
+}
+.addres h1{
+ font-size: 24px;
+ text-transform: uppercase;
+ color: #333;
+}
+.addres .texta{
+	 height: 60px;
+	 width: 320px;
+	 padding: 5px;
+	 border: none;
+	 background: #eee;
+	 font-size: 19px;
+	 margin: 10px;
+		border-radius: 10px;
+		box-shadow: 10px 10px 13px 3px grey;
+}
+.addres .texta:hover{
+	background: #9C9C9C;
+	color: #000;
+	cursor: pointer
+
+}
+.addres .massage{
+	height: 100px;
+	margin: 10px;
+	
+}
+a{
+	text-decoration: none;
+}
+.addres .btn{
+	background: #000; 
+	position: relative;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 20px;
+	border-radius: 20px;
+	top: 30px;
+	left: 60px;
+}
+.addres .btn:hover{
+	color: #44FF00;
+	background: #BB00FF;
+	border: 1px solid red;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius:  2px 10px 0 12px;
+}
+.youtube{
+	border: 2px solid burlywood;
+	position: absolute;
+   top: 50px;
+   left: 380px;
+}
+.youtube iframe{
+	height: 290px;
+	
+		border-radius: 10px;
+		box-shadow: 10px 10px 13px 3px grey;
+}
+
+@media only screen and (max-width: 600px){
+	.addres h1 {
+		font-size: 22px;
+		position: absolute;
+		top: 3%;
+		left: 24%;
+		transform: translate(-3,-24);
+	}
+	.addres .texta {
+		position: relative;
+		top: 10%;
+		left: 50%;
+		transform: translate(-10,-50);
+		border-radius: 10px;
+		box-shadow: 10px 10px 13px 3px grey;
+	
+	}.addres .btn{
+		position: relative;
+		top: 15%;
+		left: 80%;
+		transform: translate(-15, -80);
+	}
+	.youtube {
+		position: relative;
+		top: 10px;
+		left: 0px;
+	   border: none;
+		
+	}
+	.youtube iframe {
+		height: 300px;
+		width: 500px;
+		position: relative;
+		left: 50px;
+		}
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
