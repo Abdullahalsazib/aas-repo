@@ -79,13 +79,17 @@ a{
 		box-shadow: 10px 10px 13px 3px grey;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 780px){
+   body{
+      width: 100px;
+      height: 100vh;
+   }
 	.addres h1 {
 		font-size: 22px;
 		position: absolute;
-		top: 3%;
-		left: 24%;
-		transform: translate(-3,-24);
+		top: 6%;
+		left: 10%;
+		
 	}
 	.addres .texta {
 		position: relative;
@@ -96,23 +100,25 @@ a{
 		box-shadow: 10px 10px 13px 3px grey;
 	
 	}.addres .btn{
-		position: relative;
-		top: 15%;
-		left: 80%;
-		transform: translate(-15, -80);
+		position: absolute;
+		top: 56%;
+		left: 110px;
+		
+	 
 	}
 	.youtube {
 		position: relative;
-		top: 10px;
+		top: 0px;
 		left: 0px;
 	   border: none;
 		
 	}
 	.youtube iframe {
-		height: 300px;
-		width: 500px;
+		height: 250px;
+		width: 400px;
 		position: relative;
-		left: 50px;
+		top: -400px;
+		left: 4px;
 		}
 	
 	
